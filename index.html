@@ -3,10 +3,9 @@
 
 <head>
     <link rel="icon" type=image/png href="PowellPointPundits.png">
-    <title>Meeting Minutes: CSE110 Team 5 </title>
+    <title>Meeting Minutes: Team 5 </title>
     <meta name="author" content="Vivin Vinil">
 </head>
-
 
 <body>
     <header>
@@ -17,6 +16,7 @@
                 <li><a href="#attendance">Attendance</a></li>
                 <li><a href="#meetingagenda">Meeting Agenda</a></li>
                 <li><a href="#discussionpoints"> Points of Discussion </a></li>
+                <li><a href="#recordings"> Recordings </a></li>
             </ul>
         </nav>
     </header>
@@ -49,12 +49,14 @@
                 <li> Discuss Responsibilites of Team Leads </li>
             </ul>
         </section>
-        </section>
+        <h3> Unfinished Points from Last Meeting:</h3>
+        <p>
+            Need to improve slack Communication. Discussion with Malcom and team leads required.
+        </p>
         <section id="discussionpoints">
-            <h3> <strong>Points of Discussion </strong> </h3>
+            <h3> <strong>Points to Remember from Today </strong> </h3>
             <ul>
                 <li> <b><em>Communication is key </em></b></li>
-
                 <li> follow up if no response from malcolm within 24 hr </li>
                 <li> <em>keep camera on </em>and participate in group meetings, esp when online
                 </li>
@@ -65,16 +67,119 @@
                 </li>
             </ul>
         </section>
+
+        <h3> Questions/Concerns/Clarifications: </h3>
+        <ul>
+            <li>How often can we speak with Malcom </li>
+            <li> <strong>How will we be graded?</strong>
+            </li>
+            <li> <b><em>Do we always have to work entirely as a team? </em></b></li>
+        </ul>
+
     </main>
+
+
     <hr>
 
+
     <div>
-        <h5>Visualization</h5>
+        <h3>Visualizations/Diagrams!</h3>
         <p>The following was the broad idea drawn up on the whiteboard</p>
         <img src="sweimg.jpeg" alt="Diagram from Whiteboard">
     </div>
     <hr>
 
+    <section id="recordings">
+        <h2> Recordings of the Meeting: </h2>
+        <h4>Listen to Audio File here:</h4>
+
+        <details>
+            <summary>Click Arrow for more info!!</summary> <br>
+            <p>
+                You may not be able to hear much since this is just a dummy audio file. However, feel free to check its
+                functionality
+            </p>
+        </details>
+
+        <audio controls>
+            <source src="audio1373608026.m4a" type="audio/mp4">
+            Your browser does not support the audio element
+        </audio>
+
+        <h4>Watch Video of meeting here:</h4>
+        <details>
+            <summary>Click Arrow for more info</summary> <br>
+            <p>
+                This is a video of a Study Room in Geisel!
+            </p>
+        </details>
+        <video controls width="640" height="360">
+            <source src="video1373608026.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <footer>
+        <form>
+            <fieldset>
+                <legend> Personal Details </legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email ID:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="birthdate">Date of Birth:</label>
+                <input type="date" id="birthdate" name="birthdate" required>
+            </fieldset>
+
+            <fieldset>
+                <legend> Gender </legend>
+                <label for="male">
+                    <input type="radio" id="male" name="gender" value="male">
+                    Male
+                </label>
+                <label for="female">
+                    <input type="radio" id="female" name="gender" value="female">
+                    Female
+                </label>
+                <label for="Non-Binary">
+                    <input type="radio" id="Non-Binary" name="gender" value="Non-Binary">
+                    Non-Binary
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <label for="major"> Major:</label>
+                <input type="text" id="major" name="major" list="majors">
+                <datalist id="majors">
+                    <option value="Computer Science"></option>
+                    <option value="Computer Engineering"></option>
+                    <option value="Math - CS"></option>
+                    <option value="Other"></option>
+                </datalist>
+            </fieldset>
+            <fieldset>
+                <label for="What is your preferred coding language"></label>
+                What is your preferred coding language
+                <input type="checkbox" value="Java" name="What is your preferred coding language">
+                Java
+                </label>
+                <input type="checkbox" value="C++" name="What is your preferred coding language">
+                C++
+                </label>
+                <input type="checkbox" value="Either" name="What is your preferred coding language">
+                Either
+                </label>
+            </fieldset>
+
+            <label for="Additional Comments"> Any Additional Comments? </label>
+            <textarea id="Additional Comments" name="Additional Comments" rows="2" cols="30"> </textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+    </footer>
 </body>
 
 </html>

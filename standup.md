@@ -18,7 +18,7 @@ Location: Most convenient location, ensure everyone can join at all times. Keep 
 
 ## Agenda
 
-1. **Progress Update:** Each team member will provide a brief update on what they've accomplished since the last standup meeting, what they plan to work on today, and any roadblocks they're encountering.
+1. **Progress Update:** Each team member will provide a brief update on what they've accomplished since the last standup meeting, what they plan to work on today, and any issues they're facing.
    
    Answer following questions:
    - What did I work on yesterday?
@@ -35,6 +35,7 @@ Location: Most convenient location, ensure everyone can join at all times. Keep 
 
 ## Notes
 
-- Keep the meeting brief and to the point, ideally no more than 15 minutes.
-- Encourage team members to speak openly and honestly about any issues or concerns they may have.
+- Keep the meeting brief and to the point. 
+- Encourage team members to speak openly and honestly about any issues they may have.
 - Follow up on any action items after the meeting to ensure that progress is being made and roadblocks are being addressed.
+- As Altassin says make it fun !!

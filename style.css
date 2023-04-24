@@ -85,6 +85,7 @@ footer {
 }
 
 legend {
+    display: inline;
     font-weight: bold;
     font-size: 24px;
     color: #333;

@@ -15,7 +15,6 @@ Location: Most convenient location, ensure everyone can join at all times. Keep 
 - Jacob
 - David
 - Andrew 
-- 
 
 ## Agenda
 
